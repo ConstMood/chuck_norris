@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+#head-div h2 {
+  font-size: 30px;
+  font-family: "Permanent Marker", cursive;
+}
+
+#main-div {
+  width: 100vw;
+  height: 100vh;
+
+  text-align: center;
+
+  background-color: red;
+}
+
+#menu-div button {
+  display: inline-block;
+
+  border: none;
+  padding: 15px 32px;
+
+  background-color: orange;
+  color: black;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Permanent Marker", cursive;
+}
+
+#facts-div p {
+  margin-bottom: 5px;
+
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 23px;
+
+  color: black;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: inherit;
+  display: inline-block;
+  padding: 15px 32px;
+  border: none;
+
+  background-color: orange;
+  color: black;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Permanent Marker", cursive;
+}
